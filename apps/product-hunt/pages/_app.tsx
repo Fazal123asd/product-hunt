@@ -8,7 +8,9 @@ function CustomApp({ Component, pageProps }: AppProps) {
       <Head>
         <title>Welcome to product-hunt!</title>
       </Head>
-    
+      <main className="app">
+        <Component {...pageProps} />
+      </main>
     </>
   );
 }
